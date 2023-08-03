@@ -1,0 +1,8 @@
+anna:
+  username: "#######"
+  password: "#######"
+spring:
+  datasource:
+    url: "#######"
+    username: sa
+    password: "#######"

@@ -1,0 +1,21 @@
+anna:
+  upi:
+    endpoints: https://upiuat.anna-dsb.com/file-download/Records/OTC-Products/Delta/UPI/%s/%s/Foreign_Exchange/Foreign_Exchange-%s.records,https://upiuat.anna-dsb.com/file-download/Records/OTC-Products/Delta/UPI/%s/%s/Rates/Rates-%s.records,https://upiuat.anna-dsb.com/file-download/Records/OTC-Products/Delta/UPI/%s/%s/Equity/Equity-%s.records,https://upiuat.anna-dsb.com/file-download/Records/OTC-Products/Delta/UPI/%s/%s/Credit/Credit-%s.records
+logging:
+  level:
+    com:
+      poc:
+        annaupiintegration: DEBUG
+        root: WARN
+spring:
+  datasource:
+    driverClassName: com.microsoft.sqlserver.jdbc.SQLServerDriver
+  jpa:
+    hibernate:
+      ddl-auto: update
+      dialect: org.hibernate.dialect.SQLServer2012Dialect
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+      show-sql: true
+  main:
+    web-application-type: NONE

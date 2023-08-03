@@ -1,0 +1,8 @@
+anna:
+  username: ##
+  password: ##
+spring:
+  datasource:
+    password: ##
+    url: jdbc:sqlserver://localhost:1433;databaseName=bmo;encrypt=true;trustServerCertificate=true;
+    username: sa
