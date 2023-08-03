@@ -6,7 +6,7 @@ logging:
     com:
       poc:
         annaupiintegration: DEBUG
-        root: WARN
+    root: WARN
 spring:
   datasource:
     driverClassName: com.microsoft.sqlserver.jdbc.SQLServerDriver

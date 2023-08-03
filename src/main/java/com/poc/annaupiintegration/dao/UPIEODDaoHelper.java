@@ -59,7 +59,7 @@ public class UPIEODDaoHelper {
 	public List<String> fetchUPIEODRecordsFromAnna() {
 		var records = new ArrayList<String>();
 
-		var now = LocalDate.parse("2023-05-22");
+		var now = LocalDate.now();
 
 		if (!now.getDayOfWeek().equals(DayOfWeek.SATURDAY)) {
 			

@@ -1,4 +1,6 @@
 anna:
+  upi:
+    endpoints: test_url_1,test_url_2
   username: ##
   password: ##
 spring:
